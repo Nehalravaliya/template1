@@ -1,0 +1,186 @@
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container
+{
+        display: flex;
+        flex-wrap: wrap;
+}
+.doctor
+{
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius:15%;
+}
+.medical
+{
+    background-color: royalblue;
+    color: white;
+    width:80%;
+    border-bottom-right-radius:50px;
+    border-top-left-radius:50px;
+    position: relative;
+    bottom:5%;
+    left: 10%;
+}
+.clinic
+{
+    font-size:90;
+    font-weight:bold;
+    padding-left: 10%;
+    
+}
+.take
+{
+    background-color: rgb(14, 230, 238);
+    font-size: 40px;
+    color: white;
+    position:relative;
+    bottom:5.2%;
+    left:20%;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.double
+{
+    height:10%;
+    width:10%;
+    position: relative;
+    bottom:120PX;
+    left:10%;
+    opacity: 0.4;
+}
+.about
+{
+    color:royalblue;
+    font-size:35px;
+    position:relative;
+    bottom:50px;
+}
+.us
+{
+    font-size: 75px;
+}
+.aboutus
+{
+    display:flex;
+    position: relative;
+    bottom: 100px;
+    left:115px;
+    column-count:2;
+}
+hr
+{
+    position:relative;
+    bottom:100px;
+    left:8%;
+    width:50%;
+}
+.vaccine
+{
+    height:17%;
+    width:40%;
+    position:relative;
+    left:60%;
+    bottom:370px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius: 30px;
+    border-right: 10px solid royalblue;
+}
+.covid
+{
+    text-align:right;
+    position: relative;
+    top:-470px;
+    right:44%;
+    color: royalblue;
+    font-size:30px;
+}
+.ourservices
+{
+   text-align:center;
+   position: relative;
+   top:-460px;
+   left:58%;
+   font-size:30px;
+   color:white;
+   background-color: royalblue;
+   padding: 20px 80px 20px 190px;
+   border-top-left-radius: 50px;
+}
+.services{
+    color:royalblue;
+}
+.message
+{
+    height:5%;
+    width:5%;
+    position:relative;
+    top:-700px;
+    left:25%;
+
+}
+.hours
+{
+    height:6%;
+    width:6%;
+    position:relative;
+    top:-700px;  
+    left:10%;
+}
+.mask
+{
+    height:5%;
+    width:5%;
+    position:relative;
+    top:-700px;
+    left:40%;
+    background-color: royalblue;
+    border-radius: 100%;
+}
+.mask1
+{
+    height:5%;
+    width:5%;
+    position:relative;
+    top:-920px;
+    left:53%;
+    
+}
+.message1
+{
+    width:5%;
+    position:relative;
+    top:-830px;
+    left:32%;
+}
+.contact
+{
+    position: relative;
+    top: -930px;
+    left:10%;
+    letter-spacing:2px;
+}
+h6{
+    position: relative;
+    top: -930px;
+    left:10%; 
+}
+.about-services
+{
+    background-color: rgb(14, 230, 238);
+    text-align:right;
+    position: relative;
+    top:-460px;
+    left:58%; 
+    color:white;
+    width:43%;
+    font-size:15px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
